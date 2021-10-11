@@ -8,9 +8,9 @@ parameters:
 - name: artifactName
   default: 'DatabaseArtifacts'
 - name: vmImage
-  default: 'ubuntu-16.04'  
+  default: 'ubuntu-latest'  
 - name: containerImage
-  default: 'kulmam92/flyway-azure:6.2.3'
+  default: 'flyway/flyway-azure:latest-alpine'
 - name: environmentName
   default: 'DEV'  
 

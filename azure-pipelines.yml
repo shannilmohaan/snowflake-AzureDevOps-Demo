@@ -11,9 +11,9 @@ variables:
 - name: flywayartifactName
   value: DatabaseArtifacts
 - name: flywayVmImage
-  value: 'ubuntu-16.04'
+  value: 'ubuntu-latest'
 - name: flywayContainerImage
-  value: 'kulmam92/flyway-azure:6.2.3'
+  value: 'flyway/flyway-azure:latest-alpine'
 trigger:
 - master
 
