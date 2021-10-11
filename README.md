@@ -2,7 +2,7 @@
 Snowflake DevOps using Flyway and Azure Devops - Proof of Concept files
 
 ## Steps to follow
-Step 1 : Set up Snowflake User , Warehouse and Databases ( Refer the SQL file named - Snowflake_Setup_Scripts.sql
+Step 1 : Set up Snowflake User , Warehouse and Databases ( Refer the SQL file named - Snowflake_Setup_Scripts.sql)
 
 CREATE DATABASE FLYWAY_DEMO COMMENT = 'Azure DevOps deployment test';
 CREATE DATABASE FLYWAY_DEMO_DEV COMMENT = 'Azure DevOps deployment test';
